@@ -24,3 +24,14 @@ The LED light will be lit when the output of the function AB+C is true, and it w
 </div>
 
 # How to run this?
+Now, first clone the repository. Then, inside the `Experiment` folder, open the `Experiment.ino` file in the Arduino IDE. If the `Arduino IDE` is opening for the first time on your operating system, after opening the Experiment.ino file, go to `File` > `Preferences` > tick the `Compile` option beside `Show verbose output during`. Then, click `OK`. (No need to repeat this task from the second time onwards.)
+
+Now, click the `Verify` button located in the upper left corner, and from the output, copy the following path: `C:\Users\Username\AppData\Local\Temp\arduino\sketches\XXXXXXXXXX/Experiment.ino.elf`.
+
+![Screenshot](https://github.com/imSamirOFFICIAL/ArduinoLEDControlWithPushButtonAndLogicFunction/assets/52858312/16530631-1993-40a8-bf16-68fd29e243f9)
+
+Next, open the `Experiment.pdsprj` file in Proteus. Double-click on `Arduino Uno` and paste the `...ino.elf` link into the `Program File` field. Then, click `OK`.
+
+![Screenshot](https://github.com/imSamirOFFICIAL/ArduinoLEDControlWithPushButtonAndLogicFunction/assets/52858312/4ab35cf0-f755-4594-b45b-007c75e7e6d7)
+
+Boom! Everything is set up properly. Now, just click the `Run` button located in the bottom left corner and simulate the experiment.
